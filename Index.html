@@ -5,6 +5,8 @@
     <! -- top of page -->
     <meta charset="UTF-8">
     <title>Main page</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!--links a css file to page-->
 </head>
 
 <body>
@@ -12,7 +14,7 @@
     <nav>
         <! -- nav for navgation -->
         <ul>
-            <! -- ul for unordered list and ol for ordered list possivel alterar icone com type="square" -->
+            <! -- ul for unordered list and ol for ordered list possible to change symbol with type="square" -->
             <li><a href="#Works">Works</a></li>
             <! -- a href creates a link -->
             <li><a href="#Clients">Clients</a></li>
@@ -48,13 +50,13 @@
     <section id="Works">
         <h2>Works</h2>
         <p>
-            We offer works as developers for front-end and back-end codes.
+            We offer works as developers for front-end and back-end aplications.
         </p>
         <div>
-            <img src="img/img1.jpg" width="200">
+            <img src="img/img1.jpg" width="200" class="img-Standard">
         </div>
         <div>
-            <img src="img/img1.jpg" width="200">
+            <img src="img/img1.jpg" width="200" class="img-Standard">
         </div>
     </section>
 
@@ -63,7 +65,7 @@
         <p>
             We have many clients, so many!
         </p>
-        <img src="img/img1.jpg" height="200">
+        <img src="img/img1.jpg" height="200" class="img-Standard">
     </section>
 
     <section id="Partners">
@@ -71,15 +73,20 @@
         <p>
             We also have partners, good partners!
         </p>
-        <img src="img/img1.jpg" height="200" width="200">
+        <div>
+            <a href="https://google.com/" target="_blank"><img src="img/img2.png" class="img-Partner"></a>
+            <!-- targer = "_blank" to open new tab-->
+        </div>
+        <br><img src="img/img1.jpg" height="200" width="200" class="img-Standard">
     </section>
 
     <section id="Contacts">
         <h2>Contacts</h2>
         <p>
-            contact us on this e-mail: fake@mail.com
+            contact us on this e-mail: <a href="mailto:fake@mail.com">fake@mail.com</a>
+            <br>call us by the number: <a href="tel:9999999999">(99) 9999-9999</a>
         </p>
-        <img src="img/img1.jpg" height="200">
+        <img src="img/img1.jpg" height="200" class="img-Standard">
     </section>
 
     <section id="Teams">
@@ -87,7 +94,7 @@
         <p>
             We have a big team.
         </p>
-        <img src="img/img1.jpg" width="200">
+        <img src="img/img1.jpg" width="200" class="img-Standard">
     </section>
 
     <footer>

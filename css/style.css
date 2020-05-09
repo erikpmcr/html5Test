@@ -1,0 +1,35 @@
+body {
+    background: rgb(1, 163, 1);
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+header {
+    margin-top: 50px;
+}
+
+h1 {
+    color: red;
+    font-family: fantasy;
+}
+
+h2 {
+    color: red;
+    font-family: fantasy;
+}
+
+p {
+    font-size: 18px;
+}
+
+img {
+    margin-bottom: 20px;
+}
+
+.img-Standard {
+    margin-bottom: 20px;
+}
+
+.img-Partner {
+    width: 100px;
+}
